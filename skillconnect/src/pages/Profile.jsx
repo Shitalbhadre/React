@@ -12,7 +12,7 @@ const Profile = () => {
   const handleSave = () => {
     localStorage.setItem('skillconnect_user', JSON.stringify(user));
     setEditMode(false);
-    alert('Profile updated!');
+    alert('Profile update!');
   };
 
   return (
